@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7506CA451F21DF7700F34DEB /* FZISNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506CA441F21DF7700F34DEB /* FZISNetworkTool.m */; };
+		7506CA481F21DFAF00F34DEB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506CA471F21DFAF00F34DEB /* Reachability.m */; };
+		7517CA6E1F26F19700453107 /* FZISQueryTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75332C751F25CA1100A3A787 /* FZISQueryTool.h */; };
+		7517CA701F26F36500453107 /* FZISLineView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75332C771F25CA1100A3A787 /* FZISLineView.h */; };
+		7517CA721F26F52200453107 /* Utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75332C6D1F25A24900A3A787 /* Utils.h */; };
+		7517CA731F26F52200453107 /* UUIDUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75332C6E1F25A24900A3A787 /* UUIDUtils.h */; };
+		7517CA761F26F5D200453107 /* DESEncodeHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75332C721F25A37600A3A787 /* DESEncodeHelper.h */; };
+		7517CA7F1F26F62200453107 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517CA781F26F62200453107 /* KeychainItemWrapper.m */; };
+		7517CA801F26F62200453107 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517CA7A1F26F62200453107 /* GTMBase64.m */; };
+		7517CA811F26F62200453107 /* MDFiveDigestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7517CA7E1F26F62200453107 /* MDFiveDigestHelper.m */; };
+		7518F9661F17233F00A473E3 /* FZISMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518F9651F17233F00A473E3 /* FZISMapView.m */; };
+		7518F9671F1727DD00A473E3 /* FZISMapView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7518F9641F17233F00A473E3 /* FZISMapView.h */; };
+		7526AA1A1F1DB248005CCCD7 /* FZISMeasurementTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526AA191F1DB248005CCCD7 /* FZISMeasurementTool.m */; };
+		7526AA1B1F1E0124005CCCD7 /* FZISMeasurementTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7526AA181F1DB248005CCCD7 /* FZISMeasurementTool.h */; };
+		7526AA1F1F1F4BDB005CCCD7 /* CrossMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526AA1E1F1F4BDB005CCCD7 /* CrossMarkView.m */; };
+		7526AA221F1F664A005CCCD7 /* FZISGPSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526AA211F1F664A005CCCD7 /* FZISGPSTool.m */; };
+		75332C701F25A24900A3A787 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 75332C6C1F25A24900A3A787 /* Utils.m */; };
+		75332C711F25A24900A3A787 /* UUIDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 75332C6F1F25A24900A3A787 /* UUIDUtils.m */; };
+		75332C741F25A37600A3A787 /* DESEncodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75332C731F25A37600A3A787 /* DESEncodeHelper.m */; };
+		75332C791F25CA1100A3A787 /* FZISQueryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75332C761F25CA1100A3A787 /* FZISQueryTool.m */; };
+		75332C7A1F25CA1100A3A787 /* FZISLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75332C781F25CA1100A3A787 /* FZISLineView.m */; };
+		75A672811F2EDC170054918B /* FZISSandboxTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A672801F2EDC170054918B /* FZISSandboxTool.m */; };
+		75A672821F2EDF2B0054918B /* FZISSandboxTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75A6727F1F2EDC170054918B /* FZISSandboxTool.h */; };
+		75F40CAB1F21E9B100FC24F1 /* FZISNetworkTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7506CA431F21DF7700F34DEB /* FZISNetworkTool.h */; };
+		75F40CAF1F21F15C00FC24F1 /* GlobeDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F40CAE1F21F15C00FC24F1 /* GlobeDefinitions.m */; };
+		75FC0F0E1F3451C10006BB51 /* FZISGeoBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FC0F0C1F3451C10006BB51 /* FZISGeoBuilder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7518F94F1F171A7A00A473E3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				75A672821F2EDF2B0054918B /* FZISSandboxTool.h in CopyFiles */,
+				7517CA761F26F5D200453107 /* DESEncodeHelper.h in CopyFiles */,
+				7517CA721F26F52200453107 /* Utils.h in CopyFiles */,
+				7517CA731F26F52200453107 /* UUIDUtils.h in CopyFiles */,
+				7517CA701F26F36500453107 /* FZISLineView.h in CopyFiles */,
+				7517CA6E1F26F19700453107 /* FZISQueryTool.h in CopyFiles */,
+				75F40CAB1F21E9B100FC24F1 /* FZISNetworkTool.h in CopyFiles */,
+				7526AA1B1F1E0124005CCCD7 /* FZISMeasurementTool.h in CopyFiles */,
+				7518F9671F1727DD00A473E3 /* FZISMapView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7506CA431F21DF7700F34DEB /* FZISNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISNetworkTool.h; sourceTree = "<group>"; };
+		7506CA441F21DF7700F34DEB /* FZISNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISNetworkTool.m; sourceTree = "<group>"; };
+		7506CA461F21DFAF00F34DEB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7506CA471F21DFAF00F34DEB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7517CA781F26F62200453107 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		7517CA791F26F62200453107 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		7517CA7A1F26F62200453107 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		7517CA7B1F26F62200453107 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		7517CA7C1F26F62200453107 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		7517CA7D1F26F62200453107 /* MDFiveDigestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDFiveDigestHelper.h; sourceTree = "<group>"; };
+		7517CA7E1F26F62200453107 /* MDFiveDigestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDFiveDigestHelper.m; sourceTree = "<group>"; };
+		7518F9511F171A7A00A473E3 /* libFZISUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFZISUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7518F9641F17233F00A473E3 /* FZISMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISMapView.h; sourceTree = "<group>"; };
+		7518F9651F17233F00A473E3 /* FZISMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISMapView.m; sourceTree = "<group>"; };
+		7526AA181F1DB248005CCCD7 /* FZISMeasurementTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISMeasurementTool.h; sourceTree = "<group>"; };
+		7526AA191F1DB248005CCCD7 /* FZISMeasurementTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISMeasurementTool.m; sourceTree = "<group>"; };
+		7526AA1D1F1F4BDB005CCCD7 /* CrossMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossMarkView.h; sourceTree = "<group>"; };
+		7526AA1E1F1F4BDB005CCCD7 /* CrossMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossMarkView.m; sourceTree = "<group>"; };
+		7526AA201F1F664A005CCCD7 /* FZISGPSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISGPSTool.h; sourceTree = "<group>"; };
+		7526AA211F1F664A005CCCD7 /* FZISGPSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISGPSTool.m; sourceTree = "<group>"; };
+		75332C6C1F25A24900A3A787 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		75332C6D1F25A24900A3A787 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		75332C6E1F25A24900A3A787 /* UUIDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDUtils.h; sourceTree = "<group>"; };
+		75332C6F1F25A24900A3A787 /* UUIDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDUtils.m; sourceTree = "<group>"; };
+		75332C721F25A37600A3A787 /* DESEncodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncodeHelper.h; sourceTree = "<group>"; };
+		75332C731F25A37600A3A787 /* DESEncodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESEncodeHelper.m; sourceTree = "<group>"; };
+		75332C751F25CA1100A3A787 /* FZISQueryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISQueryTool.h; sourceTree = "<group>"; };
+		75332C761F25CA1100A3A787 /* FZISQueryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISQueryTool.m; sourceTree = "<group>"; };
+		75332C771F25CA1100A3A787 /* FZISLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISLineView.h; sourceTree = "<group>"; };
+		75332C781F25CA1100A3A787 /* FZISLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISLineView.m; sourceTree = "<group>"; };
+		75A6727F1F2EDC170054918B /* FZISSandboxTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISSandboxTool.h; sourceTree = "<group>"; };
+		75A672801F2EDC170054918B /* FZISSandboxTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISSandboxTool.m; sourceTree = "<group>"; };
+		75F40CAD1F21F15C00FC24F1 /* GlobeDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeDefinitions.h; sourceTree = "<group>"; };
+		75F40CAE1F21F15C00FC24F1 /* GlobeDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeDefinitions.m; sourceTree = "<group>"; };
+		75FC0F0C1F3451C10006BB51 /* FZISGeoBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZISGeoBuilder.m; sourceTree = "<group>"; };
+		75FC0F0D1F3451C10006BB51 /* FZISGeoBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZISGeoBuilder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7518F94E1F171A7A00A473E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7518F9481F171A7A00A473E3 = {
+			isa = PBXGroup;
+			children = (
+				7518F9531F171A7A00A473E3 /* FZISUtils */,
+				7518F9521F171A7A00A473E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7518F9521F171A7A00A473E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7518F9511F171A7A00A473E3 /* libFZISUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7518F9531F171A7A00A473E3 /* FZISUtils */ = {
+			isa = PBXGroup;
+			children = (
+				75FC0F0D1F3451C10006BB51 /* FZISGeoBuilder.h */,
+				75FC0F0C1F3451C10006BB51 /* FZISGeoBuilder.m */,
+				75A6727F1F2EDC170054918B /* FZISSandboxTool.h */,
+				75A672801F2EDC170054918B /* FZISSandboxTool.m */,
+				7517CA791F26F62200453107 /* GTMBase64.h */,
+				7517CA7A1F26F62200453107 /* GTMBase64.m */,
+				7517CA7B1F26F62200453107 /* GTMDefines.h */,
+				7517CA781F26F62200453107 /* KeychainItemWrapper.m */,
+				7517CA7C1F26F62200453107 /* KeychainItemWrapper.h */,
+				7517CA7D1F26F62200453107 /* MDFiveDigestHelper.h */,
+				7517CA7E1F26F62200453107 /* MDFiveDigestHelper.m */,
+				75332C751F25CA1100A3A787 /* FZISQueryTool.h */,
+				75332C761F25CA1100A3A787 /* FZISQueryTool.m */,
+				75332C771F25CA1100A3A787 /* FZISLineView.h */,
+				75332C781F25CA1100A3A787 /* FZISLineView.m */,
+				75332C721F25A37600A3A787 /* DESEncodeHelper.h */,
+				75332C731F25A37600A3A787 /* DESEncodeHelper.m */,
+				7518F9641F17233F00A473E3 /* FZISMapView.h */,
+				7518F9651F17233F00A473E3 /* FZISMapView.m */,
+				7526AA181F1DB248005CCCD7 /* FZISMeasurementTool.h */,
+				7526AA191F1DB248005CCCD7 /* FZISMeasurementTool.m */,
+				7526AA201F1F664A005CCCD7 /* FZISGPSTool.h */,
+				7526AA211F1F664A005CCCD7 /* FZISGPSTool.m */,
+				7506CA431F21DF7700F34DEB /* FZISNetworkTool.h */,
+				7506CA441F21DF7700F34DEB /* FZISNetworkTool.m */,
+				7526AA1D1F1F4BDB005CCCD7 /* CrossMarkView.h */,
+				7526AA1E1F1F4BDB005CCCD7 /* CrossMarkView.m */,
+				75F40CAD1F21F15C00FC24F1 /* GlobeDefinitions.h */,
+				75F40CAE1F21F15C00FC24F1 /* GlobeDefinitions.m */,
+				7506CA461F21DFAF00F34DEB /* Reachability.h */,
+				7506CA471F21DFAF00F34DEB /* Reachability.m */,
+				75332C6D1F25A24900A3A787 /* Utils.h */,
+				75332C6C1F25A24900A3A787 /* Utils.m */,
+				75332C6E1F25A24900A3A787 /* UUIDUtils.h */,
+				75332C6F1F25A24900A3A787 /* UUIDUtils.m */,
+			);
+			path = FZISUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7518F9501F171A7A00A473E3 /* FZISUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7518F95A1F171A7A00A473E3 /* Build configuration list for PBXNativeTarget "FZISUtils" */;
+			buildPhases = (
+				7518F94D1F171A7A00A473E3 /* Sources */,
+				7518F94E1F171A7A00A473E3 /* Frameworks */,
+				7518F94F1F171A7A00A473E3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZISUtils;
+			productName = TestLib;
+			productReference = 7518F9511F171A7A00A473E3 /* libFZISUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7518F9491F171A7A00A473E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FZIS;
+				TargetAttributes = {
+					7518F9501F171A7A00A473E3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CZHV4GA94T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7518F94C1F171A7A00A473E3 /* Build configuration list for PBXProject "FZISUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7518F9481F171A7A00A473E3;
+			productRefGroup = 7518F9521F171A7A00A473E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7518F9501F171A7A00A473E3 /* FZISUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7518F94D1F171A7A00A473E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FC0F0E1F3451C10006BB51 /* FZISGeoBuilder.m in Sources */,
+				7518F9661F17233F00A473E3 /* FZISMapView.m in Sources */,
+				7517CA7F1F26F62200453107 /* KeychainItemWrapper.m in Sources */,
+				7506CA451F21DF7700F34DEB /* FZISNetworkTool.m in Sources */,
+				7506CA481F21DFAF00F34DEB /* Reachability.m in Sources */,
+				75332C701F25A24900A3A787 /* Utils.m in Sources */,
+				75A672811F2EDC170054918B /* FZISSandboxTool.m in Sources */,
+				75332C7A1F25CA1100A3A787 /* FZISLineView.m in Sources */,
+				75332C741F25A37600A3A787 /* DESEncodeHelper.m in Sources */,
+				75332C711F25A24900A3A787 /* UUIDUtils.m in Sources */,
+				7526AA1F1F1F4BDB005CCCD7 /* CrossMarkView.m in Sources */,
+				7526AA1A1F1DB248005CCCD7 /* FZISMeasurementTool.m in Sources */,
+				75F40CAF1F21F15C00FC24F1 /* GlobeDefinitions.m in Sources */,
+				7517CA811F26F62200453107 /* MDFiveDigestHelper.m in Sources */,
+				7526AA221F1F664A005CCCD7 /* FZISGPSTool.m in Sources */,
+				75332C791F25CA1100A3A787 /* FZISQueryTool.m in Sources */,
+				7517CA801F26F62200453107 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7518F9581F171A7A00A473E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7518F9591F171A7A00A473E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7518F95B1F171A7A00A473E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = CZHV4GA94T;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7518F95C1F171A7A00A473E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = CZHV4GA94T;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7518F94C1F171A7A00A473E3 /* Build configuration list for PBXProject "FZISUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518F9581F171A7A00A473E3 /* Debug */,
+				7518F9591F171A7A00A473E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7518F95A1F171A7A00A473E3 /* Build configuration list for PBXNativeTarget "FZISUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7518F95B1F171A7A00A473E3 /* Debug */,
+				7518F95C1F171A7A00A473E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7518F9491F171A7A00A473E3 /* Project object */;
+}
